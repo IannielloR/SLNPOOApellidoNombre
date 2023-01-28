@@ -26,5 +26,10 @@ namespace LibTransportes.Models
         {
             return "Frena 4 veces mas lento que el camion";
         }
+
+        public override string Mostrar()
+        {
+            return ($"Kilometros: {Kilometros} \nCantidad de ruedad: {CantidadDeRuedas} \nCantidad de pasajeros: {CantidadPasajeros} \nNivel de bateria: {NivelDeBateria}");
+        }
     }
 }

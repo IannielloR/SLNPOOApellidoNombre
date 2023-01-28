@@ -10,5 +10,10 @@ namespace LibTransportes.Models
     {
         public bool Ocupado { get; set; }
         public double MaxPeso { get; set; }
+
+        public string Mostrar()
+        {
+            return ($"Ocupado: {Ocupado} \nPeso maximo: {MaxPeso}");
+        }
     }
 }

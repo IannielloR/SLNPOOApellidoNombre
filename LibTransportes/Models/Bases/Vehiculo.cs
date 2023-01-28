@@ -21,5 +21,7 @@ namespace LibTransportes.Models.Bases
 
         public abstract string Frenar();
 
+        public abstract string Mostrar();
+
     }
 }

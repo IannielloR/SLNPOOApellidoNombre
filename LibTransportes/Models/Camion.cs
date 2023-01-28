@@ -31,5 +31,9 @@ namespace LibTransportes.Models
         {
             Remolque = null;
         }
+        public override string Mostrar()
+        {
+            return ($"Kilometros: {Kilometros} \nCantidad de ruedad: {CantidadDeRuedas} \nRemolque: {Remolque} \nCapacidad: {Capacidad} \nDescripcion de carga {DescripcionDeCarga}");
+        }
     }
 }
